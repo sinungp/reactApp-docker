@@ -13,3 +13,9 @@ Built using:
 In the /personal-portfolio, you can run:
 
 ### `APLIKASI INI SUDAH BISA RUN MENGGUNAKAN DOCKER COMPOSE`
+
+#Run docker build
+docker build -t app-dev:latest .
+
+#Run docker compose
+docker-compose -f docker-compose.dev.yaml
